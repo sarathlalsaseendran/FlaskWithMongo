@@ -1,16 +1,18 @@
 ### Simple Python Flask Program with MongoDB
 
-##### Instructions 
+##### Instructions
+
 Download python from https://www.python.org/downloads/
 
 Download MongoDB from https://www.mongodb.com/download-center#community
 
 Install Flask, bson & pymongo
->pip install Flask
 
->pip install bson
+> pipnv shell
 
->pip install pymongo
+> pipenv install -u requirements.txt
+
+> python app.py
 
 Before running the mongodb instance, we must create a data folder and run below command in command prompt.
 
